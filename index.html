@@ -18,17 +18,28 @@
       <span class="brand-mark" aria-hidden="true">
         <svg viewBox="0 0 32 32" width="28" height="28"><path d="M16 2.5 4.5 6.3v8.9c0 7.4 4.9 13.3 11.5 14.8 6.6-1.5 11.5-7.4 11.5-14.8V6.3L16 2.5Z" fill="none" stroke="#1C3F94" stroke-width="2.2" stroke-linejoin="round"/><path d="M11.2 16.2l3.3 3.3 6.5-6.8" fill="none" stroke="#1C3F94" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </span>
-      <span class="brand-name">ウォレット復旧相談窓口</span>
+      <span class="brand-text">
+        <span class="brand-name">ウォレット復旧相談窓口</span>
+        <span class="brand-sep" aria-hidden="true">|</span>
+        <img src="images/paycle.png" alt="Paycle" class="brand-by-logo" />
+      </span>
     </a>
     <nav class="nav" aria-label="メイン">
-      <a href="#service">サービス内容</a>
-      <a href="#info">必要な情報</a>
+      <a href="#service">サービス</a>
+      <a href="#info">必要情報</a>
       <a href="#flow">ご相談の流れ</a>
       <a href="#faq">料金</a>
       <a href="#contact">お問い合わせ</a>
     </nav>
     <div class="header-ctas">
-      <a href="#contact" class="btn btn-primary btn-sm">無料相談はこちら</a>
+      <a href="#" class="btn btn-line btn-sm" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" class="i" aria-hidden="true"><path fill="currentColor" d="M12 3C6.5 3 2 6.6 2 11.1c0 4 3.5 7.4 8.3 8 .3.1.8.2.9.5.1.3.1.7 0 1l-.2 1c-.1.3-.3 1.1 1 .6 1.4-.5 7.1-4.2 9.7-7.2 1.7-2 2.3-3.6 2.3-5.9C24 6.6 19.5 3 12 3Zm-3.7 10.6h-2c-.3 0-.5-.2-.5-.5v-4c0-.3.2-.5.5-.5s.5.2.5.5v3.5h1.5c.3 0 .5.2.5.5s-.2.5-.5.5Zm2.3-.5c0 .3-.2.5-.5.5s-.5-.2-.5-.5v-4c0-.3.2-.5.5-.5s.5.2.5.5v4Zm4.6 0c0 .2-.1.4-.3.5h-.4l-2-2.7v2.2c0 .3-.2.5-.5.5s-.5-.2-.5-.5v-4c0-.2.1-.4.3-.5h.4l2 2.7V9.1c0-.3.2-.5.5-.5s.5.2.5.5v4Zm3.4-2.5c.3 0 .5.2.5.5s-.2.5-.5.5h-1.4v.9h1.4c.3 0 .5.2.5.5s-.2.5-.5.5h-2c-.3 0-.5-.2-.5-.5v-4c0-.3.2-.5.5-.5h2c.3 0 .5.2.5.5s-.2.5-.5.5h-1.4v.9h1.4Z"/></svg>
+        LINEで無料相談
+      </a>
+      <a href="#contact" class="btn btn-primary btn-sm">
+        <svg viewBox="0 0 24 24" class="i" aria-hidden="true"><path d="M3 6h18v12H3z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m3 6 9 7 9-7" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+        メールで無料相談
+      </a>
     </div>
   </div>
 </header>
@@ -71,20 +82,74 @@
   </div>
 </section>
 
-<!-- ============== TRUST BAR ============== -->
-<section class="trust">
-  <div class="container trust-row">
-    <div class="trust-item">
-      <svg viewBox="0 0 40 40" class="ti"><path d="M8 10h20a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H16l-6 5v-5H8a4 4 0 0 1-4-4V14a4 4 0 0 1 4-4Z" fill="none" stroke="#1C3F94" stroke-width="2"/></svg>
-      <div><b>相談無料</b><span>ご相談は何度でも無料です</span></div>
+<!-- ============== LOGOS MARQUEE ============== -->
+<section class="logos" aria-label="対応暗号資産・ウォレット">
+  <div class="logos-track">
+    <!-- set 1 -->
+    <div class="logo-item">
+      <svg viewBox="0 0 80 80" class="logo-svg" aria-label="Bitcoin"><circle cx="40" cy="40" r="38" fill="#F7931A"/><text x="40" y="56" text-anchor="middle" font-family="Arial Black,Arial,sans-serif" font-size="44" font-weight="900" fill="#fff">₿</text></svg>
+      <span class="logo-name">Bitcoin</span>
     </div>
-    <div class="trust-item">
-      <svg viewBox="0 0 40 40" class="ti"><path d="M20 32s-12-7.2-12-15a7 7 0 0 1 12-4.9A7 7 0 0 1 32 17c0 7.8-12 15-12 15Z" fill="none" stroke="#1C3F94" stroke-width="2"/></svg>
-      <div><b>丁寧なヒアリング</b><span>状況を丁寧にお伺いします</span></div>
+    <div class="logo-item">
+      <svg viewBox="0 0 80 80" class="logo-svg" aria-label="Ethereum"><circle cx="40" cy="40" r="38" fill="#627EEA"/><g fill="#fff"><path d="M40 14v17l13 6L40 14z" opacity=".6"/><path d="M40 14 27 37l13-6V14z"/><path d="M40 50v15l13-19-13 4z" opacity=".6"/><path d="M40 65V50l-13-4 13 19z"/><path d="M40 47l13-10-13-6v16z" opacity=".25"/><path d="m27 37 13 10V31l-13 6z" opacity=".6"/></g></svg>
+      <span class="logo-name">Ethereum</span>
     </div>
-    <div class="trust-item">
-      <svg viewBox="0 0 40 40" class="ti"><path d="M20 4 6 9v10c0 8 6 14.5 14 17 8-2.5 14-9 14-17V9L20 4Z" fill="none" stroke="#1C3F94" stroke-width="2"/><path d="m14 20 4 4 8-9" fill="none" stroke="#1C3F94" stroke-width="2" stroke-linecap="round"/></svg>
-      <div><b>安心のサポート</b><span>一人ひとりに寄り添います</span></div>
+    <div class="logo-item">
+      <svg viewBox="0 0 80 80" class="logo-svg" aria-label="XRP"><circle cx="40" cy="40" r="38" fill="#23292F"/><path d="M55 24h-6l-9 9-9-9h-6l12 12-12 12h6l9-9 9 9h6L43 36l12-12z" fill="#fff"/></svg>
+      <span class="logo-name">XRP</span>
+    </div>
+    <div class="logo-item">
+      <svg viewBox="0 0 80 80" class="logo-svg" aria-label="Cardano"><circle cx="40" cy="40" r="38" fill="#0033AD"/><g fill="#fff"><circle cx="40" cy="40" r="4"/><circle cx="40" cy="22" r="2.5"/><circle cx="40" cy="58" r="2.5"/><circle cx="24" cy="31" r="2.5"/><circle cx="56" cy="31" r="2.5"/><circle cx="24" cy="49" r="2.5"/><circle cx="56" cy="49" r="2.5"/><circle cx="16" cy="40" r="2"/><circle cx="64" cy="40" r="2"/><circle cx="32" cy="20" r="1.8"/><circle cx="48" cy="20" r="1.8"/><circle cx="32" cy="60" r="1.8"/><circle cx="48" cy="60" r="1.8"/><circle cx="20" cy="24" r="1.8"/><circle cx="60" cy="24" r="1.8"/><circle cx="20" cy="56" r="1.8"/><circle cx="60" cy="56" r="1.8"/></g></svg>
+      <span class="logo-name">Cardano</span>
+    </div>
+    <div class="logo-item">
+      <img src="images/metamask.png" alt="MetaMask" class="logo-svg logo-img" loading="lazy" />
+      <span class="logo-name">MetaMask</span>
+    </div>
+    <div class="logo-item">
+      <svg viewBox="0 0 80 80" class="logo-svg" aria-label="Trust Wallet"><circle cx="40" cy="40" r="38" fill="#3375BB"/><path d="M40 16 24 22v15c0 11 7 19 16 22 9-3 16-11 16-22V22l-16-6z" fill="#fff"/><path d="m32 40 6 6 12-13" stroke="#3375BB" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span class="logo-name">Trust Wallet</span>
+    </div>
+    <div class="logo-item">
+      <svg viewBox="0 0 80 80" class="logo-svg" aria-label="Ledger"><circle cx="40" cy="40" r="38" fill="#000"/><g fill="#fff"><path d="M16 16h16v4H20v12h-4V16z"/><path d="M64 16v16h-4V20H48v-4h16z"/><path d="M16 64V48h4v12h12v4H16z"/><path d="M48 64v-4h12V48h4v16H48z"/><rect x="28" y="36" width="24" height="8"/></g></svg>
+      <span class="logo-name">Ledger</span>
+    </div>
+    <div class="logo-item">
+      <img src="images/daedalus.png" alt="Daedalus" class="logo-svg logo-img" loading="lazy" />
+      <span class="logo-name">Daedalus</span>
+    </div>
+    <!-- set 2 (duplicate for seamless loop) -->
+    <div class="logo-item" aria-hidden="true">
+      <svg viewBox="0 0 80 80" class="logo-svg"><circle cx="40" cy="40" r="38" fill="#F7931A"/><text x="40" y="56" text-anchor="middle" font-family="Arial Black,Arial,sans-serif" font-size="44" font-weight="900" fill="#fff">₿</text></svg>
+      <span class="logo-name">Bitcoin</span>
+    </div>
+    <div class="logo-item" aria-hidden="true">
+      <svg viewBox="0 0 80 80" class="logo-svg"><circle cx="40" cy="40" r="38" fill="#627EEA"/><g fill="#fff"><path d="M40 14v17l13 6L40 14z" opacity=".6"/><path d="M40 14 27 37l13-6V14z"/><path d="M40 50v15l13-19-13 4z" opacity=".6"/><path d="M40 65V50l-13-4 13 19z"/><path d="M40 47l13-10-13-6v16z" opacity=".25"/><path d="m27 37 13 10V31l-13 6z" opacity=".6"/></g></svg>
+      <span class="logo-name">Ethereum</span>
+    </div>
+    <div class="logo-item" aria-hidden="true">
+      <svg viewBox="0 0 80 80" class="logo-svg"><circle cx="40" cy="40" r="38" fill="#23292F"/><path d="M55 24h-6l-9 9-9-9h-6l12 12-12 12h6l9-9 9 9h6L43 36l12-12z" fill="#fff"/></svg>
+      <span class="logo-name">XRP</span>
+    </div>
+    <div class="logo-item" aria-hidden="true">
+      <svg viewBox="0 0 80 80" class="logo-svg"><circle cx="40" cy="40" r="38" fill="#0033AD"/><g fill="#fff"><circle cx="40" cy="40" r="4"/><circle cx="40" cy="22" r="2.5"/><circle cx="40" cy="58" r="2.5"/><circle cx="24" cy="31" r="2.5"/><circle cx="56" cy="31" r="2.5"/><circle cx="24" cy="49" r="2.5"/><circle cx="56" cy="49" r="2.5"/><circle cx="16" cy="40" r="2"/><circle cx="64" cy="40" r="2"/><circle cx="32" cy="20" r="1.8"/><circle cx="48" cy="20" r="1.8"/><circle cx="32" cy="60" r="1.8"/><circle cx="48" cy="60" r="1.8"/><circle cx="20" cy="24" r="1.8"/><circle cx="60" cy="24" r="1.8"/><circle cx="20" cy="56" r="1.8"/><circle cx="60" cy="56" r="1.8"/></g></svg>
+      <span class="logo-name">Cardano</span>
+    </div>
+    <div class="logo-item" aria-hidden="true">
+      <img src="images/metamask.png" alt="" class="logo-svg logo-img" loading="lazy" />
+      <span class="logo-name">MetaMask</span>
+    </div>
+    <div class="logo-item" aria-hidden="true">
+      <svg viewBox="0 0 80 80" class="logo-svg"><circle cx="40" cy="40" r="38" fill="#3375BB"/><path d="M40 16 24 22v15c0 11 7 19 16 22 9-3 16-11 16-22V22l-16-6z" fill="#fff"/><path d="m32 40 6 6 12-13" stroke="#3375BB" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span class="logo-name">Trust Wallet</span>
+    </div>
+    <div class="logo-item" aria-hidden="true">
+      <svg viewBox="0 0 80 80" class="logo-svg"><circle cx="40" cy="40" r="38" fill="#000"/><g fill="#fff"><path d="M16 16h16v4H20v12h-4V16z"/><path d="M64 16v16h-4V20H48v-4h16z"/><path d="M16 64V48h4v12h12v4H16z"/><path d="M48 64v-4h12V48h4v16H48z"/><rect x="28" y="36" width="24" height="8"/></g></svg>
+      <span class="logo-name">Ledger</span>
+    </div>
+    <div class="logo-item" aria-hidden="true">
+      <img src="images/daedalus.png" alt="" class="logo-svg logo-img" loading="lazy" />
+      <span class="logo-name">Daedalus</span>
     </div>
   </div>
 </section>
@@ -349,12 +414,6 @@
           <textarea id="f-msg" name="message" rows="5" placeholder="現在の状況や、わかる範囲の情報をご記入ください" required></textarea>
         </div>
 
-        <label class="check">
-          <input type="checkbox" id="f-agree" required/>
-          <span class="box" aria-hidden="true"></span>
-          <span>個人情報の取り扱いに同意する</span>
-        </label>
-
         <button type="submit" class="btn btn-primary btn-xl">
           <svg viewBox="0 0 24 24" class="i"><path d="M3 6h18v12H3z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m3 6 9 7 9-7" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
           無料相談を送信する
@@ -373,14 +432,18 @@
       <span class="brand-mark" aria-hidden="true">
         <svg viewBox="0 0 32 32" width="24" height="24"><path d="M16 2.5 4.5 6.3v8.9c0 7.4 4.9 13.3 11.5 14.8 6.6-1.5 11.5-7.4 11.5-14.8V6.3L16 2.5Z" fill="none" stroke="#1C3F94" stroke-width="2.2"/><path d="M11.2 16.2l3.3 3.3 6.5-6.8" fill="none" stroke="#1C3F94" stroke-width="2.2" stroke-linecap="round"/></svg>
       </span>
-      <span class="brand-name">ウォレット復旧相談窓口</span>
+      <span class="brand-text">
+        <span class="brand-name">ウォレット復旧相談窓口</span>
+        <span class="brand-sep" aria-hidden="true">|</span>
+        <img src="images/paycle.png" alt="Paycle" class="brand-by-logo" />
+      </span>
     </a>
+    <dl class="foot-info">
+      <dt>運営会社</dt><dd>株式会社ペイクル</dd>
+      <dt>所在地</dt><dd>福岡県福岡市中央区天神1-10-20　天神ビジネスセンター15F</dd>
+    </dl>
     <nav class="foot-nav">
-      <a href="#">運営会社</a>
-      <span class="sep">｜</span>
       <a href="#">プライバシーポリシー</a>
-      <span class="sep">｜</span>
-      <a href="#contact">お問い合わせ</a>
     </nav>
   </div>
   <p class="copy">© 2025 ウォレット復旧相談窓口 All Rights Reserved.</p>
