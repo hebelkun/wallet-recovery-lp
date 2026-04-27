@@ -444,7 +444,7 @@
         </div>
       </div>
 
-      <form class="form-right" action="https://formsubmit.co/murohashi@paycle.com" method="POST" novalidate>
+      <form class="form-right" action="https://formsubmit.co/info@paycle.com" method="POST" novalidate>
         <input type="hidden" name="_subject" value="【ウォレット復旧相談窓口】新規お問い合わせ" />
         <input type="hidden" name="_template" value="table" />
         <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
@@ -466,7 +466,7 @@
         </div>
         <div class="field">
           <label for="f-wallet">ウォレットの種類</label>
-          <input id="f-wallet" name="wallet" type="text" placeholder="例：Ledger、MetaMask、取引所ウォレット等" required />
+          <input id="f-wallet" name="wallet" type="text" placeholder="例：Ledger、MetaMask、取引所ウォレット等" />
         </div>
         <div class="field">
           <label for="f-msg">お問い合わせ内容<span class="req">必須</span></label>
@@ -530,7 +530,7 @@
     btn.innerHTML = '送信中...';
     btn.disabled = true;
     try {
-      const res = await fetch('https://formsubmit.co/ajax/murohashi@paycle.com', {
+      const res = await fetch('https://formsubmit.co/ajax/info@paycle.com', {
         method: 'POST',
         headers: { 'Accept': 'application/json' },
         body: new FormData(form)
