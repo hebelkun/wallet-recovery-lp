@@ -231,6 +231,41 @@ a{color:inherit;text-decoration:none}
 .flow-note{text-align:center;color:var(--ink-3);font-size:12px;margin-top:36px}
 #flow .h-sec{margin-bottom:36px}
 
+/* ========= pricing ========= */
+.pricing{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.pcard{
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius-lg);
+  padding:36px 32px 32px;box-shadow:var(--shadow-sm);text-align:center;
+  position:relative;overflow:hidden;
+}
+.pcard-free{background:linear-gradient(180deg,#F0F6FD,#fff 45%)}
+.pcard-success{background:linear-gradient(180deg,#EDF6F1,#fff 45%)}
+.p-label{
+  display:inline-block;font-size:12px;font-weight:700;letter-spacing:.12em;
+  color:var(--navy-700);background:#fff;border:1px solid var(--blue-200);
+  padding:6px 16px;border-radius:999px;margin-bottom:18px;
+}
+.pcard-success .p-label{color:var(--green-700);border-color:var(--green-100)}
+.p-amount{
+  display:flex;align-items:baseline;justify-content:center;gap:4px;
+  color:var(--navy-900);margin-bottom:8px;
+  font-family:"Noto Serif JP","Noto Sans JP",serif;
+}
+.pcard-success .p-amount{color:var(--green-700)}
+.p-num{font-size:72px;font-weight:700;line-height:1;letter-spacing:.02em}
+.p-unit{font-size:24px;font-weight:700;line-height:1;margin-left:2px}
+.p-from{font-size:32px;font-weight:700;line-height:1;color:var(--ink-3);margin-left:2px}
+.p-tagline{
+  font-size:13.5px;color:var(--ink-2);font-weight:500;
+  padding-bottom:20px;margin-bottom:20px;
+  border-bottom:1px dashed var(--blue-200);
+}
+.pcard-success .p-tagline{border-bottom-color:var(--green-100)}
+.p-list{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px;text-align:left}
+.p-list li{display:flex;gap:10px;align-items:flex-start;font-size:13px;color:var(--ink-2);line-height:1.7}
+.p-list .chk{width:16px;height:16px;flex:none;margin-top:4px}
+.pricing-note{text-align:center;color:var(--ink-2);font-size:14.5px;margin-top:32px;line-height:1.9;font-weight:500}
+
 /* ========= form ========= */
 .form-card{
   background:#fff;border:1px solid var(--blue-100);
@@ -336,6 +371,9 @@ a{color:inherit;text-decoration:none}
   .features{grid-template-columns:repeat(2,1fr)}
   .flow{grid-template-columns:1fr}
   .flow-arrow{transform:rotate(90deg);padding:8px 0}
+  .pricing{grid-template-columns:1fr}
+  .pcard{padding:28px 22px 24px}
+  .p-num{font-size:60px}
   .form-card{grid-template-columns:1fr;padding:28px}
   .form-left,.form-right{transform:none}
   .field{grid-template-columns:1fr;gap:6px}
